@@ -1,0 +1,353 @@
+header {
+  background-image: url(../img/intro-bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-dark {
+  background-color: #111418 !important;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 30;
+  color: white;
+}
+
+button {
+  color: white !important;
+}
+
+.nav-item a {
+  font-size: 1.1rem;
+  font-weight: 490;
+  color: white !important ;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-item a:hover,
+a.active:hover {
+  color: green !important;
+}
+
+.logo a:hover {
+  color: white !important;
+}
+
+.icon1:hover {
+  color: #0d6efd;
+}
+
+.icon2:hover {
+  color: rgb(40, 40, 94);
+}
+.icon3:hover {
+  color: rgb(100, 40, 40);
+}
+
+.iconn {
+  font-size: 20;
+  font-weight: 400;
+  color: white;
+}
+
+.mainText h1 {
+  font-size: 4rem !important;
+}
+
+button {
+  border-radius: 50px;
+  border: 2px solid green;
+  width: 140px;
+  height: 50px;
+  background: transparent;
+  color: white;
+}
+button:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Semone Olivia";
+  color: white;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100%+8px);
+  height: 100%;
+  background-color: white;
+  border-left: 2px solid rgb(19, 18, 18);
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid white;
+  }
+}
+
+@keyframes words {
+  0%,
+  25% {
+    content: "semone Olivia";
+  }
+
+  26%,
+  50% {
+    content: "Freelance";
+  }
+
+  51%,
+  75% {
+    content: "Photographer";
+  }
+
+  76%,
+  100% {
+    content: "Designer";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100%+8px);
+  }
+}
+/* //////////////////////////////////// */
+.end {
+  border-bottom: none;
+}
+
+.inform ul li a {
+  text-decoration: none;
+  color: green;
+}
+
+.inform ul li a:hover {
+  color: rgb(39, 148, 39);
+}
+
+.cv {
+  border-radius: 50px;
+  border: 2px solid green;
+  width: 160px;
+  height: 50px;
+  background: green;
+  color: white;
+}
+
+.numbers h4 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.numbers {
+  line-height: 1.8;
+}
+/* //////////////////////////////////// */
+
+.i-do-tittle h2 {
+  font-size: 8rem;
+  opacity: 0.1;
+}
+
+.i-do-tittle p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  align-self: center !important;
+  /* border-bottom: green; */
+}
+.ido {
+  width: 100px;
+  border-bottom: 3px solid green;
+  top: 67% !important;
+}
+
+.cards .iconne {
+  width: 70px;
+  height: 70px;
+}
+
+.cards .iconne a {
+  font-size: 30;
+  font-weight: 400;
+  color: green;
+}
+
+.cards .content h3 {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+/* ////////////////////////// */
+
+.resume-tittle h2 {
+  font-size: 8rem;
+  opacity: 0.1;
+}
+
+.resume-tittle p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  align-self: center !important;
+  /* border-bottom: green; */
+}
+.res {
+  width: 100px;
+  border-bottom: 3px solid green;
+  top: 67% !important;
+}
+
+.period {
+  background-color: green !important;
+  width: 100px;
+}
+
+.resum-button {
+  border-radius: 50px;
+  border: 2px solid gray;
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: black;
+}
+
+.resum-button:hover {
+  background: gray;
+  color: white !important;
+}
+/* /////////////////////////////////////////// */
+.port-list {
+  list-style-type: none;
+}
+
+.port-list li a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.port-list li a:hover {
+  color: rgb(39, 148, 39);
+}
+
+.port-list li .active {
+  color: rgb(39, 148, 39);
+  text-decoration: underline;
+  color: green;
+}
+.custom-rounded {
+  border-radius: 18px !important;
+}
+
+.over {
+  position: relative;
+}
+.contentt {
+ width:100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+  border-radius: 18px;
+  
+}
+.contentt:hover {
+  opacity: 2;
+}
+
+.cover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  border-color: white !important;
+}
+.slick-button {
+  list-style: none;
+}
+/* ///////////////////////////// */
+.icona li {
+  list-style-type: none;
+}
+.icona li a {
+  text-decoration: none;
+  color: rgb(42, 41, 41);
+  padding-right: 20px;
+  font-size: large;
+}
+
+.icona li .dr:hover {
+  color: rgb(161, 53, 53);
+}
+
+.icona li .tw:hover {
+  color: rgb(84, 84, 243);
+}
+
+.icona li .fac:hover {
+  color: rgb(45, 24, 117);
+}
+
+.icona li .goog:hover {
+  color: red;
+}
+
+.icona li .git:hover {
+  color: rgb(18, 17, 17);
+}
+/* ///////////////////////// */
+.foot-content li {
+  list-style-type: none;
+}
+
+.foot-content li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+
